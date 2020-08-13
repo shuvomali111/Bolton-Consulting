@@ -1,0 +1,328 @@
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 981px) and (max-width: 1200px) {
+	
+ul.header-contact-list li {
+    margin-right: 30px;
+}
+
+.single-footer-item.footer-one {
+	    padding-right: 40px;
+	}
+
+	.single-footer-item.footer-two {
+	    padding-right: 40px;
+	}
+
+	.single-footer-item.footer-three {
+	    padding-right: 30px;
+	}
+
+	.footer-four {
+	    max-width: 258px;
+	}
+
+	.footer-one {
+	    max-width: 300px;
+	}
+
+	ul.footer-instagram-post li {
+	    width: 68px;
+	    height: 68px;
+	}
+
+	.footer-area .row{
+		display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-between;
+	}
+
+}
+
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+
+ul.header-contact-list li {
+    font-size: 0;
+    margin-right: 12px;
+}
+
+.social-menu {
+    display: none;
+}
+
+.main-menu {
+    width: 100%;
+    text-align: center;
+    float: none;
+}
+
+.main-menu ul li a {
+    font-size: 14px;
+    margin-right: 25px;
+    padding: 15px 0;
+}
+
+.social-menu ul li a {
+    font-size: 14px;
+    padding: 15px 0;
+}
+
+
+.hero-content {
+    max-width: 550px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+section.hero-area {
+    padding: 150px 0;
+}
+
+.about-img {
+    width: 100%;
+    text-align: center;
+}
+
+.about-img img {
+    max-width: 550px;
+}
+
+.about-content {
+    width: 100%;
+}
+
+.single-service-item {
+    width: 50%;
+}
+
+.call-content-area h2 {
+    font-size: 32px;
+}
+
+.request-from-wrapper {
+    width: 100%;
+    float: none;
+    padding: 0;
+}
+
+section.request-from-area::before {
+    display: none;
+}
+
+section.request-from-area::after {
+    display: none;
+}
+
+.single-footer-item {
+	    width: 50%;
+	    float: left;
+	    max-width: 50%;
+	    margin-bottom: 30px;
+	}
+
+	.footer-four {
+	    max-width: 300px !important;
+	}
+
+
+}
+
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+.logo-area {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.header-contact-area {
+    width: 100%;
+    text-align: center;
+}
+
+ul.header-contact-list li {
+    margin: 0 3px;
+}
+
+.icon {
+    float: none;
+}
+
+.header-top-area {
+    padding: 15px 0;
+}
+
+.main-menu ul li a {
+    font-size: 13px;
+    margin-right: 25px;
+    padding: 15px 0;
+}
+
+.hero-content h1 {
+    font-size: 28px;
+}
+
+a.boxed-btn {
+    padding: 15px 25px;
+    font-size: 14px;
+}
+
+.hero-content p {
+    padding-bottom: 25px;
+}
+
+section.hero-area {
+    padding: 110px 0;
+}
+
+.section-title h2 {
+    font-size: 25px;
+}
+
+.single-service-item {
+    width: 100%;
+}
+
+.service-content {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.single-team-item {
+    width: 100%;
+}
+
+.team-content-wrapper {
+    max-width: 330px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.single-team-item:last-child .team-content-wrapper {
+    margin-bottom: 0;
+}
+
+.call-content-area h2 {
+    font-size: 28px;
+}
+
+	.single-footer-item {
+	    width: 100%;
+	    max-width: 100%;
+	    margin-bottom: 30px;
+	}
+
+	.single-footer-item:last-child{
+		margin-bottom: 0;
+	}
+
+	section {
+	    padding: 60px 0 !important;
+	}
+
+}
+
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
+
+.logo-area img {
+    max-width: 140px;
+}
+
+ul.header-contact-list li .icon img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.logo-area {
+    margin-bottom: 10px;
+}
+
+ul.header-contact-list li {
+    max-width: 35px;
+}
+
+.main-menu ul li a {
+    font-size: 10px;
+    margin: 0px 3px;
+    padding: 5px 0;
+}
+
+.hero-content h1 {
+    font-size: 20px;
+}
+
+.hero-content p {
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+section.hero-area {
+    padding: 70px 0;
+}
+
+a.boxed-btn {
+    padding: 8px 10px;
+    font-size: 10px;
+}
+
+.section-title h2 {
+    font-size: 20px;
+}
+
+.service-icon img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.service-icon {
+    width: 100%;
+    text-align: center;
+}
+
+.service-icon h4 {
+    float: none;
+    width: 100%;
+    margin: 0;
+}
+
+.service-icon h4::before {
+    left: 50%;
+    margin-left: -27px;
+}
+
+.call-content-area h2 {
+    font-size: 25px;
+}
+
+.call-content-area p {
+    font-size: 15px;
+}
+
+a.boxed-btn {
+    font-size: 15px;
+    padding: 12px 15px;
+}
+
+.form-half {
+    width: 100%;
+    margin: 0px;
+}
+
+.container-fluid {
+    padding: 0 30px;
+}
+
+button.message-request {
+    font-size: 12px;
+    padding: 15px 25px;
+}
+
+
+	ul.footer-instagram-post li {
+	    width: 70px;
+	    height: 70px;
+	}
+
+}

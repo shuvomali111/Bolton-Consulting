@@ -1,0 +1,868 @@
+ /*.......................Boilerplate start.......................*/
+@import url('https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #888888;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: 'Catamaran', sans-serif;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+button[type="button"]:focus,
+input[type="button"]:focus,
+textarea:focus{
+	outline: none;
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+
+.clearfix{
+	display: block;
+}
+
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.container{
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.container-fluid{
+    max-width: 100%;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.row{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.row:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+img{
+	max-width: 100%;
+}
+ul{
+	list-style: none;
+}
+ /*.......................Boilerplate end.......................*/
+
+/*........................header area start.....................*/
+.header-top-area{
+	padding:30px 0;
+	background: #def;
+}
+.logo-area {
+    width: 20%;
+    float: left;
+    padding: 0 15px;
+}
+
+.logo-area a {
+    display: inline-block;
+}
+
+.logo-area img {
+    max-width: 170px;
+}
+
+.header-contact-area {
+    width: 80%;
+    float: left;
+    padding: 0 15px;
+    text-align: right;
+}
+
+.header-contact-area ul li {
+    display: inline-block;
+    margin-right: 48px;
+}
+
+.icon {
+    float: left;
+}
+
+.header-contact-text {
+    padding-left: 55px;
+    text-align: left;
+}
+
+.header-contact-text p {
+    margin-bottom: 3px;
+    line-height: 1;
+}
+
+.header-contact-area ul li:last-child {
+    margin-right: 0;
+}
+
+.header-contact-text a {
+    color: #1c1c1c;
+    display: block;
+}
+
+
+/*navigation-area-start*/
+.navigation-area {
+    background:#37C4F1;
+}
+
+.main-menu {
+    width: 70%;
+    float: left;
+    padding: 0 15px;
+}
+
+.social-menu {
+    width: 30%;
+    float: left;
+    padding: 0 15px;
+    text-align: right;
+}
+
+.main-menu ul li {
+    display: inline-block;
+}
+
+.social-menu ul li {
+    display: inline-block;
+}
+
+.main-menu ul li a {
+    color:#000;
+    font-weight: 700;
+    display: block;
+    margin-right: 48px;
+    padding: 20px 0;
+    text-transform: uppercase;
+    transition: 0.7s all;
+    width: 100%;
+    text-align: center;
+}
+
+.main-menu ul li a:hover{
+	background: orange;
+}
+
+.social-menu ul li a{
+	color: #000;
+	display: block;
+	padding:20px 0;
+	margin-left: 18px;
+	transition: 0.8s all;
+	width: 100%;
+	text-align: center;
+}
+
+.social-menu ul li a:hover{
+	color: brown;
+	padding: 5px;
+}
+
+/*navigation-area-end*/
+/*........................header area end.....................*/
+
+/*........................hero-area start..................... */
+.hero-area{
+	padding:280px 0;
+	background-image: url(imgs/cuteboy.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	transition: 0.7s all;
+}
+
+.hero-area:hover{
+	opacity: 1.0;
+
+}
+
+.hero-content{
+	max-width: 470px;
+	padding:0 15px;
+}
+
+.hero-content h1 {
+    color: #1c1c1c;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.hero-content p {
+    font-size: 16px;
+    padding-bottom: 32px;
+    padding-top: 10px;
+}
+
+a.boxed-btn {
+    color: #000;
+    background-color: orange;
+    padding: 15px 30px;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1;
+    transition: .7s all;
+    border-radius: 3px;
+}
+
+a.boxed-btn:hover{
+	background:#5997e5;
+	color: #fff;
+}
+
+/*........................hero-area end..................... */
+
+/*........................about area start...................*/
+
+section.about-area {
+    padding: 100px 0;
+    background-color: #f3e5a0;
+}
+
+.section-title {
+    padding: 0 15px;
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    color: #1c1c1c;
+    font-size: 32px;
+    font-weight: 900;
+    padding-bottom: 5px;
+}
+
+.section-title h2 span {
+    color: forestgreen;
+}
+
+.about-img {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+
+.about-content {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-content p {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+ul.about-contact-list li {
+    color: #1c1c1c;
+    font-weight: 500;
+    display: block;
+    padding-bottom: 15px;
+}
+
+ul.about-contact-list li:last-child {
+    padding-bottom: 0;
+}
+
+ul.about-contact-list {
+    padding-bottom: 40px;
+}
+/*........................about area end...................*/
+
+/*........................service area start...............*/
+section.service-area {
+    background: #feefef;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.single-service-item {
+    width: 33.33%;
+    float: left;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.service-content {
+    background: #edf2c2;
+    padding: 40px;
+    transition: 0.7s all;
+}
+
+.service-content:hover{
+	box-shadow:  0px 3px 15px 0px rgba(5, 6, 7, 0.2);
+}
+
+.service-content:hover .service-icon h4{
+	color:#FF992B;
+}
+
+.service-content:hover .service-icon h4::before{
+    background:orange;
+}
+
+.service-icon img {
+    float: left;
+}
+
+.service-icon h4 {
+    color: #1c1c1c;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-left: 73px;
+    padding-top: 10px;
+    transition: 0.7s all;
+    position: relative;
+}
+
+.service-icon h4::before{
+    position:absolute;
+    content: "";
+    width: 60px;
+    height:1px;
+    background:#ABB1BA;
+    bottom: -15px;
+    left: -25px;
+}
+
+.service-icon {
+    padding-bottom: 30px;
+}
+/*........................service area end...............*/
+
+
+/*........................cal to us area start...........*/
+
+section.call-area {
+    /*background-image: url(imgs/hadhasgfh.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+*/  
+	background: #000;
+ 	padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.call-content-area {
+	padding: 0 15px;
+	text-align: center;
+}
+
+.call-content-area h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.25;
+    padding-bottom: 5px;
+}
+
+.call-content-area p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+/*........................cal to us area end...........*/
+
+/*........................our stafe area start.........*/
+
+section.our-stafs-area {
+    background: #c5f1f8;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.single-team-item {
+    width: 33.33%;
+    float: left;
+    padding: 0 15px;
+}
+
+.team-content-wrapper {
+    text-align: center;
+}
+
+.author-img img {
+    display: block;
+    height: 430px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    transition: 2s;
+}
+
+h3.author-name {
+    color: #1c1c1c;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.author-img {
+    margin-bottom: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+ul.team-hover li {
+    display: inline-block;
+}
+
+ul.team-hover li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    color:#fff;
+    border: 1px solid #fff;
+    line-height: 40px;
+    margin: 0 3px;
+    border-radius: 3px;
+    transition: .4s all;
+}
+
+ul.team-hover li a:hover{
+    color:#FF9800;
+    border-color: #FF9800;
+}
+
+ul.team-hover {
+    position: absolute;
+    top: 130%;
+    margin-top: -20px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.8s all;
+    z-index: 3;
+}
+
+.team-content-wrapper:hover ul.team-hover{
+    opacity: 1;
+    visibility: visible;
+    top:50%;
+}
+
+.team-content-wrapper:hover .author-img img{
+    transform: scale(1.5);
+}
+
+.team-content-wrapper:hover h3.author-name{
+    color: #DD5145;
+} 
+
+.author-img::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background:#000;
+    top: 0;
+    left: 0;
+    opacity:0;
+    transition: 0.7s all;
+}
+
+.team-content-wrapper:hover .author-img::after{
+    opacity:0.3;
+}
+/*........................our stafe area end.........*/
+
+/*........................request from area start....*/
+.request-from-area{
+    padding:100px 0;
+    background: #F7F7F6;
+    position:relative;
+}
+
+section.request-from-area::after{
+    position: absolute;
+    content: "";
+    width: 45%;
+    height: 100%;
+    background:#ddd;
+    top:0;
+    left:0;
+    opacity: .5;
+}
+
+section.request-from-area::before {
+    position: absolute;
+    content: "";
+    width: 45%;
+    height: 100%;
+    background-image: url(imgs/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    left: 0;
+}
+
+.request-from-wrapper {
+    width: 55%;
+    float: right;
+    padding-left:80px;
+}
+
+.request-from-wrapper form input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+    background: #EDEDEC;
+    border:0;
+    border-radius: 3px;
+    height: 52px;
+}
+
+.request-from-wrapper form textarea{
+    width: 100%;
+    resize: none;
+    background: #EDEDEC;
+    border:0;
+    border-radius: 3px;
+    height: 133px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.form-half {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+
+.mr-0{
+    margin-right: 0;
+}
+
+button.message-request{ 
+    color: #fff;
+    background-color: #00BC9C;
+    border: 0;font-size: 16px;
+    display: inline-block;
+    font-weight: 600;
+    border-radius:3px;
+    padding: 18px 30px;
+    transition: 0.7s all;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button.message-request:hover {
+    color: #1EA362;
+    background-color: #2F4052;
+}
+
+.request-from-wrapper h2 {
+    color: #1c1c1c;
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.request-from-wrapper h2::after{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 2px;
+    left: 0;
+    bottom: 0px;
+    background: #e88b00;
+}
+
+.request-from-wrapper p {
+    font-weight: 600;
+    line-height: 1.55;
+}
+
+.request-from-wrapper form {
+    margin-top: 30px;
+}
+
+/*........................request from area end....*/
+
+
+
+/*.........................Fotter area start....... */
+
+.footer-area{
+    background: #141215;
+    padding: 80px 0;
+}
+
+.single-footer-item {
+    float: left;
+    padding: 0 15px;
+}
+
+.footer-one {
+    max-width: 375px;
+}
+
+.footer-two {
+    max-width: 232px;
+}
+
+.footer-three {
+    max-width: 305px;
+}
+
+.footer-four {
+    max-width: 300px;
+}
+
+.single-footer-item.footer-one {
+   
+padding-right: 90px;
+}
+
+.single-footer-item.footer-two {
+  
+padding-right: 100px;
+}
+
+.single-footer-item.footer-three {
+   
+padding-right: 40px;
+}
+
+.single-footer-item {
+    color: #bdb6b6;
+}
+
+.single-footer-item a.footer-logo {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.single-footer-item a.footer-logo img {
+    max-width: 167px;
+    display: block;
+}
+
+.footer-subscriber input[type="email"] {
+    width: 100%;
+    height: 47px;
+    padding: 15px;
+    border: 1px solid #565457;
+    background: transparent;
+    border-radius: 3px;
+    font-style: italic;
+}
+
+input[type="email"]::placeholder {
+    color: #777777;
+}
+
+button.subscriber-btn {
+    width: 35px;
+    height: 47px;
+    position: absolute;
+    right: 0;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    background-image: url(imgs/subscriber-btn.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.footer-subscriber {
+    position: relative;
+    display: block;
+    margin-top: 36px;
+}
+
+h3.footer-heading {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 11px;
+    margin-bottom: 40px;
+}
+
+h3.footer-heading::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background: #85746F;
+    left: 0;
+    bottom: 0;
+}
+
+ul.quick-link li {
+    display: block;
+}
+
+ul.quick-link li a {
+    display: inline-block;
+    color: #bdb6b6;
+    margin-bottom: 10px;
+    transition: .3s all;
+}
+
+ul.quick-link li a i {
+    margin-right: 9px;
+}
+
+ul.quick-link li a:hover{
+    color: #fff;
+    transform: translateX(10px);
+}
+
+ul.footer-contact li {
+    display: block;
+}
+
+ul.footer-contact li a {
+    display: inline-block;
+    color: #bdb6b6;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 35px;
+}
+
+ul.footer-contact li a img {
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+ul.footer-instagram-post li {
+    left: 82px;
+    height: 82px;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+ul.footer-instagram-post li a {
+    display: block;
+}
+
+ul.footer-instagram-post li img {
+    display: block;
+}
+
+ul.footer-instagram-post li:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+
+
+.copy-right-area{
+    background: #141215;
+    text-align: center;
+}
+
+.copy-right-wrapper{
+    padding: 0 15px;
+}
+
+.copy-right-wrapper p{
+    border-top: 1px solid #434144;
+    padding: 20px 0;
+}
+
+/*.........................Fotter area end....... */
+
+
+
+a.boxed-btn {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+a.boxed-btn::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    background: red;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.7s all;
+}
+
+a.boxed-btn:hover::after {
+    width: 100%;
+}
+
+button.message-request {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+button.message-request::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    background: #faf43a;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.7s all;
+}
+
+button.message-request:hover::after {
+    width: 100%;
+}
